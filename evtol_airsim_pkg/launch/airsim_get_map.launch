@@ -1,0 +1,12 @@
+<launch>
+    <!-- Load parameters from yaml file -->
+    <rosparam command="load" file="$(find evtol_airsim_pkg)/config/airsim_params.yaml" />
+    
+    <node name="airsim_pub_map_node" pkg="evtol_airsim_pkg" type="airsim_pub_map_node.py" output="screen">
+    <!-- <node name="binvox_pub_map_node" pkg="evtol_airsim_pkg" type="binvox_pub_map_node.py" output="screen"> -->
+
+    </node>
+
+
+    <node name="rviz2" pkg="rviz" type="rviz" args="-d $(find evtol_airsim_pkg)/launch/rviz_config/getmap.rviz"/> 
+</launch>

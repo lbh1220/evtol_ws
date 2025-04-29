@@ -1,0 +1,7 @@
+<launch>
+
+        <node name="airsim_lidar_publisher" pkg="evtol_airsim_pkg" type="airsim_lidar_publisher_node.py" output="screen">
+        </node>
+        <node name="airsim_pose_odom_publisher" pkg="evtol_airsim_pkg" type="airsim_pose_odom_publisher_node.py" output="screen">
+        </node>
+</launch>

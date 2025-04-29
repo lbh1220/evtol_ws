@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/liang/catkin_ws/devel/include/**",
+        "/home/liang/my_lib/ws_livox/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/liang/catkin_ws/src/evtol_airsim_pkg/include/**",
+        "/home/liang/catkin_ws/src/evtol_planner_pkg/include/**",
+        "/home/liang/catkin_ws/src/FAST_LIO/include/**",
+        "/home/liang/catkin_ws/src/FAST_LIO_SAM/FAST_LIO_SAM/include/**",
+        "/home/liang/catkin_ws/src/grid_path_searcher/include/**",
+        "/home/liang/catkin_ws/src/path_planner/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

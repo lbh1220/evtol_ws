@@ -1,0 +1,14 @@
+airsim:
+  offset:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  resolution: 5.0
+  map_size:
+    max_x: 2000
+    max_y: 2000
+    max_z: 100 
+
+flight_param:
+  cruise_height: 100
+  cruise_height_tolerance: 10.0  # 巡航高度容差（米）

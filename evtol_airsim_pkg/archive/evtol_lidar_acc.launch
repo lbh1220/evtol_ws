@@ -1,0 +1,17 @@
+<launch>
+    <!-- <node name="airsim_vis_trajectory_node" pkg="evtol_airsim_pkg" type="airsim_vis_trajectory_node.py" output="screen">
+    </node> -->
+
+    <!-- <node name="airsim_mission_node" pkg="evtol_airsim_pkg" type="airsim_mission_node.py" output="screen">
+    </node> -->
+
+    <!-- <node name="airsim_slam_lidar_node" pkg="evtol_airsim_pkg" type="airsim_slam_lidar_node.py" output="screen">
+    </node> -->
+    <node name="airsim_lidar_body_node" pkg="evtol_airsim_pkg" type="airsim_lidar_body_node.py" output="screen">
+    </node>
+    <node name="airsim_lidar_mapping_node" pkg="evtol_airsim_pkg" type="airsim_lidar_mapping_node.py" output="screen">
+    </node>
+    <node name="mavlink_listener" pkg="offboard_py" type="mavlink_listener.py" output="screen">
+    </node>
+    <node name="rviz2" pkg="rviz" type="rviz" args="-d $(find evtol_airsim_pkg)/launch/rviz_config/lidar_acc.rviz"/> 
+</launch>

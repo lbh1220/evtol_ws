@@ -1,0 +1,13 @@
+<launch>
+
+    <node name="airsim_set_pose_node" pkg="evtol_airsim_pkg" type="airsim_set_pose_node.py" output="screen">
+        
+    </node>
+
+    <node name="mavlink_listener_node" pkg="offboard_py" type="mavlink_listener.py" output="screen">
+
+    </node>
+
+
+    <!-- <node name="rviz2" pkg="rviz" type="rviz" args="-d $(find evtol_airsim_pkg)/launch/rviz_config/vis_4lidar.rviz"/>  -->
+</launch>

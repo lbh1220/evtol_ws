@@ -1,0 +1,29 @@
+<launch>
+    <param name="airsim/offset_x"       value="0.0"/>
+    <param name="airsim/offset_y"       value="0.0"/>
+    <param name="airsim/offset_z"       value="-50.0"/>
+    <param name="airsim/resolution"     value="5.0"/>
+    <node name="airsim_pub_map_node" pkg="evtol_airsim_pkg" type="airsim_pub_map_node.py" output="screen">
+
+    </node>
+
+
+    <node name="airsim_mission_node" pkg="evtol_airsim_pkg" type="airsim_mission_node.py" output="screen">
+        
+    </node>
+
+    <node name="airsim_slam_lidar_node" pkg="evtol_airsim_pkg" type="airsim_slam_lidar_node.py" output="screen">
+        
+    </node>
+
+    <node name="airsim_test_slam_node" pkg="evtol_airsim_pkg" type="airsim_test_slam_node.py" output="screen">
+        
+    </node>
+
+    <node name="airsim_pub_state_node" pkg="evtol_airsim_pkg" type="airsim_pub_state_node.py" output="screen">
+
+    </node>
+
+
+    <!-- <node name="rviz2" pkg="rviz" type="rviz" args="-d $(find evtol_airsim_pkg)/launch/rviz_config/vis_4lidar.rviz"/>  -->
+</launch>
