@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/liang/my_lib/ws_livox/devel/include/**",
+        "/home/liang/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/liang/catkin_ws/src/CERLAB-UAV-Autonomy/autonomous_flight/include/**",
+        "/home/liang/Projects/evtol_ros_ws/src/evtol_airsim_pkg/include/**",
+        "/home/liang/catkin_ws/src/evtol_planner_pkg/include/**",
+        "/home/liang/catkin_ws/src/FAST_LIO/include/**",
+        "/home/liang/catkin_ws/src/FAST_LIO_SAM/FAST_LIO_SAM/include/**",
+        "/home/liang/catkin_ws/src/FAST-LIVO/include/**",
+        "/home/liang/catkin_ws/src/CERLAB-UAV-Autonomy/global_planner/include/**",
+        "/home/liang/catkin_ws/src/grid_path_searcher/include/**",
+        "/home/liang/catkin_ws/src/path_planner/include/**",
+        "/home/liang/catkin_ws/src/CERLAB-UAV-Autonomy/map_manager/include/**",
+        "/home/liang/catkin_ws/src/CERLAB-UAV-Autonomy/onboard_detector/include/**",
+        "/home/liang/catkin_ws/src/CERLAB-UAV-Autonomy/time_optimizer/include/**",
+        "/home/liang/catkin_ws/src/CERLAB-UAV-Autonomy/tracking_controller/include/**",
+        "/home/liang/catkin_ws/src/CERLAB-UAV-Autonomy/trajectory_planner/include/**",
+        "/home/liang/catkin_ws/src/CERLAB-UAV-Autonomy/uav_simulator/include/**",
+        "/home/liang/catkin_ws/src/rpg_vikit/vikit_common/include/**",
+        "/home/liang/catkin_ws/src/rpg_vikit/vikit_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
